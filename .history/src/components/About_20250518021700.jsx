@@ -83,10 +83,10 @@ const About = () => {
                         I am a passionate MERN Stack Developer and a Problem
                         Solver, dedicated to creating impactful codes that
                         thrive on the internet.
-                        <br /><br />
+                        <br />
                         I have experience working with Python, JavaScript,
                         TypeScript, HTML, CSS, React.js, Node.js, Express.js, MongoDB, Tailwind CSS, and Git.
-                        <br /><br />I am a quick learner and I am always looking to
+                        <br />I am a quick learner and I am always looking to
                         expand my knowledge and skill set.
                     </p>
 
@@ -171,20 +171,19 @@ const About = () => {
                                     </h5>
                                     <div className="mt-2 flex gap-4 items-center">
                                         <div className="w-[15px] h-[2px] bg-textWhite "></div>
-                                        <ul className="list-disc ml-4 space-y-1 text-left">
-                                            <li>
-                                            Modernized 60+ web pages using JavaScript, HTML/CSS for marketing campaigns, increasing user engagement by 15% and improving alumni donation flow.
-                                            </li>
-                                            <li>
-                                            Analyzed marketing performance using Google Looker, Tableau, and Python (pandas, matplotlib) to generate insights and optimize outreach strategies.
-                                            </li>
-                                            <li>
-                                            Managed campaigns with CRM tools (Blackbaud Luminate Online, Emma, Drupal), directly boosting alumni engagement and donation rates.
-                                            </li>
-                                            <li>
-                                            Automated report generation using Python and Selenium, reducing manual workload by 70% and enhancing campaign strategy with data-driven insights.
-                                            </li>
-                                        </ul>
+                                        <span>
+                                            <p>
+                                              ◦ Modernized 60+ web pages utilizing JavaScript, HTML/CSS for marketing campaigns, directly contributing to a 15%
+                                            increase in user engagement and bolstered RIT alumni donation efforts by optimizing donation processes.
+                                            ◦ Conducted marketing performance analysis using Google Looker, Tableau, and Python (pandas, matplotlib) to
+                                            generate insights and improve outreach strategies.
+                                            ◦ Supported alumni engagement initiatives by managing and optimizing campaigns using CRM tools such as Blackbaud
+                                            Luminate Online, Emma, and Drupal, directly contributing to increased alumni donations.
+                                            ◦ Deployed Python automation scripts with Selenium to streamline repetitive tasks, which reduced report generation
+                                            time by 70% and performed campaign data analysis to optimize strategies and improve performance outcomes.
+                                            </p>                     
+                                            
+                                        </span>
                                     </div>
                                     <div className="ml-6 mt-1 text-gray-500 font-medium flex items-center justify-between max-w-[95%]">
                                         <span className="">
@@ -206,26 +205,24 @@ const About = () => {
                                     </h5>
                                     <div className="mt-2 flex gap-4 items-center">
                                         <div className="w-[15px] h-[2px] bg-textWhite "></div>
-                                       <ul className="list-disc ml-4 space-y-1 text-left">
-                                            <li>
-                                            Developed applications on the Lifion platform using Node.js for backend and React for responsive UIs, handling over 100,000 legacy user records across 10+ clients.
-                                            </li>
-                                            <li>
-                                            Designed and maintained ETL pipelines with MySQL to ensure timely and accurate data integration across systems.
-                                            </li>
-                                            <li>
-                                            Automated build, test, and deployment workflows using Git, CI/CD tools, and Jest for robust backend and frontend testing.
-                                            </li>
-                                            <li>
-                                            Built a document lifecycle dashboard for 15+ clients, improving bulk import from 6,000 to 10,000 records and securing access with RBAC. Utilized AWS S3 and FileZilla for storage and download.
-                                            </li>
-                                            <li>
-                                            Implemented an audit feature in Payroll, Time, and Compensation modules, reducing debugging time by 40% through audit traceability in payroll profiles.
-                                            </li>
-                                            <li>
-                                            Led 30+ cross-functional meetings, provided diagnostics support using Kibana and Splunk, and tested APIs with Postman, resolving 100+ system issues.
-                                            </li>
-                                        </ul>
+                                        <span>
+                                            <p>
+                                                ◦ Development and Data Management: Built applications on the Lifion platform, utilizing Node.js for backend
+                                                systems and API integrations. Developed responsive UIs with React to enhance user experience. Designed and
+                                                supported ETL processes using MySQL for timely and accurate data integration. Managed over 100,000 legacy user
+                                                records for 10+ clients, ensuring data accuracy and seamless retrieval.
+                                                ◦ Build, Deploy and Test: Used Git for version control and integrated with CI/CD tools to automate builds, tests, and
+                                                deployments. Leveraged Jest for testing Node and React applications, ensuring code quality and reliability.
+                                                ◦ Document Dashboard: Designed a document lifecycle management system for 15+ clients, improving bulk import
+                                                capacity from 6,000 to 10,000 and securing document access with role based access control RBAC. Used AWS S3 for
+                                                storage and FileZilla for downloads.
+                                                ◦ Audit Feature: Launched an audit feature across multiple domains Payroll, Time, Compensation, enabling traceability
+                                                of changes. Added an audit button to payroll profiles, reducing debugging time by 40%.
+                                                ◦ Technical Support: Led 30+ cross-functional meetings, providing technical support through diagnostics and
+                                                troubleshooting. Utilized Kibana and Splunk for system debugging, and Postman for API response testing, resolving
+                                                100+ issues.
+                                            </p>
+                                        </span>
                                     </div>
                                     <div className="ml-6 mt-1 text-gray-500 font-medium flex items-center justify-between max-w-[95%]">
                                         <span className="">

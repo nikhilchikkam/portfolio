@@ -83,10 +83,10 @@ const About = () => {
                         I am a passionate MERN Stack Developer and a Problem
                         Solver, dedicated to creating impactful codes that
                         thrive on the internet.
-                        <br /><br />
+                        <br />
                         I have experience working with Python, JavaScript,
                         TypeScript, HTML, CSS, React.js, Node.js, Express.js, MongoDB, Tailwind CSS, and Git.
-                        <br /><br />I am a quick learner and I am always looking to
+                        <br />I am a quick learner and I am always looking to
                         expand my knowledge and skill set.
                     </p>
 
