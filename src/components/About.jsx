@@ -90,7 +90,7 @@ const About = () => {
                         expand my knowledge and skill set.
                     </p>
 
-                    <div className="flex flex-row justify-start gap-6 pl-4">
+                    <div className="flex flex-row justify-start gap-6 pl-4 bg-[#181a20] rounded-full p-2 mt-4 shadow-sm border border-[#23272f] w-fit">
                         <TabbedComponent
                             selectTab={() => selectTab("skills")}
                             active={tab === "skills"}
@@ -164,6 +164,36 @@ const About = () => {
                                     transition={{ duration: 1 }}
                                 >
                                     <h5 className="text-2xl font-[600]">
+                                        Mendon Group <span className="text-base font-[500]">- Rochester, NY</span>
+                                    </h5>
+                                    <div className="mt-2 flex gap-4 items-center">
+                                        <div className="w-[15px] h-[2px] bg-textWhite "></div>
+                                        <ul className="list-disc ml-4 space-y-1 text-left">
+                                            <li>
+                                                <span className="italic">Full-Stack Developer (Internship)</span>
+                                            </li>
+                                            <li>
+                                                Built a SaaS web application for nutrition product search and management using <span className="font-semibold">React (Vite, TypeScript, Tailwind CSS)</span> for the frontend and <span className="font-semibold">FastAPI (Python) with PostgreSQL</span> for the backend.
+                                            </li>
+                                            <li>
+                                                Built scheduled <span className="font-semibold">ETL</span> pipelines to ingest and update nutrition data from multiple sources into a database, exposing it through <span className="font-semibold">RESTful APIs</span> to support real-time filtering, search, and pagination on the frontend.
+                                            </li>
+                                            <li>
+                                                Deployed and managed both frontend and backend as scalable, independent services on <span className="font-semibold">DigitalOcean</span> App Platform, optimizing <span className="font-semibold">CI/CD</span> pipelines, environment variables, CORS, and secure routing for a production-grade SaaS platform.
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div className="ml-6 mt-1 text-gray-500 font-medium flex items-center justify-between max-w-[95%]">
+                                        <span className="italic">June 2025 - Present</span>
+                                        <span className="">Internship, Remote</span>
+                                    </div>
+                                </motion.li>
+                                <motion.li
+                                    initial={{ opacity: 0 }}
+                                    animate={{ opacity: 1 }}
+                                    transition={{ duration: 1 }}
+                                >
+                                    <h5 className="text-2xl font-[600]">
                                         Web Developer{" "}
                                         <span className="text-base font-[500]">
                                             - RIT University Advancement Services, NY, USA
@@ -179,7 +209,7 @@ const About = () => {
                                             Analyzed marketing performance using Google Looker, Tableau, and Python (pandas, matplotlib) to generate insights and optimize outreach strategies.
                                             </li>
                                             <li>
-                                            Managed campaigns with CRM tools (Blackbaud Luminate Online, Emma, Drupal), directly boosting alumni engagement and donation rates.
+                                            Managed campaigns with CMS tools (Blackbaud Luminate Online, Emma, Drupal), directly boosting alumni engagement and donation rates.
                                             </li>
                                             <li>
                                             Automated report generation using Python and Selenium, reducing manual workload by 70% and enhancing campaign strategy with data-driven insights.

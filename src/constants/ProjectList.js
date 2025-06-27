@@ -10,7 +10,7 @@ export const ProjectList = [
         img: offshore_leaks,
         //max 6 tech stack
         tech: ["Neo4j", "JavaScript", 'D3.js'],
-        source: "https://github.com/RIT-iSchool/neo4j-project-nikhilchikkam",
+        source: "https://github.com/nikhilchikkam/offshore-data-leaks",
         demo: null,
     },
     {
@@ -27,7 +27,7 @@ export const ProjectList = [
             "Tailwind CSS",
             "Stripe",
         ],
-        source: "https://github.com/RIT-iSchool/mongo-project-rocket",
+        source: "https://github.com/nikhilchikkam/pokedex",
        demo: null,
     },
     {
