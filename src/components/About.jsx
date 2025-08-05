@@ -179,7 +179,7 @@ const About = () => {
                                                 Built scheduled <span className="font-semibold">ETL</span> pipelines to ingest and update nutrition data from multiple sources into a database, exposing it through <span className="font-semibold">RESTful APIs</span> to support real-time filtering, search, and pagination on the frontend.
                                             </li>
                                             <li>
-                                                Deployed and managed both frontend and backend as scalable, independent services on <span className="font-semibold">DigitalOcean</span> App Platform, optimizing <span className="font-semibold">CI/CD</span> pipelines, environment variables, CORS, and secure routing for a production-grade SaaS platform.
+                                                Deployed and managed both frontend and backend as scalable, independent services on <span className="font-semibold">DigitalOcean</span>, leveraging <span className="font-semibold">Linux</span> for server management and optimizing <span className="font-semibold">CI/CD</span> pipelines, environment variables, CORS, and secure routing for a production-grade SaaS platform.
                                             </li>
                                         </ul>
                                     </div>
