@@ -47,11 +47,11 @@ const HeroSection = () => {
                             // preRenderFirstString={true}
                             sequence={[
                                 500,
-                                "I'm a MERN Stack Developer.",
+                                "Building scalable software, data platforms, and intelligent solutions.",
                                 1000,
-                                "Specailizing in Big Data Analytics",    
+                                "Turning Ideas into Production Software.",    
                                 1000,
-                                "I make ideas & things alive.",
+                                "Designing systems. Automating workflows. Delivering impact.",
                                 500,
                             ]}
                             speed={50}
@@ -70,10 +70,10 @@ const HeroSection = () => {
                                 duration={1000}
                                 className="px-6 py-3 cursor-pointer w-full sm:w-fit rounded-full md:mr-4 bg-white hover:bg-gray-300 text-black text-lg font-[700] text-center hover:scale-[0.99] transition-all duration-400 ease-in-out"
                             >
-                                Hire Me
+                                Contact Me
                             </ScrollLink>
                             <a
-                                href="https://drive.google.com/file/d/1kIEFFaI5KpZn2IOMkSVaX4IXGY2qWe4X/view?usp=drive_link"
+                                href="https://drive.google.com/file/d/1lGsjZPy0wwSwfkl0lX3AZaiWrUT2xwHf/view?usp=sharing"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="px-6 py-3 w-full sm:w-fit rounded-full md:mr-4 bg-transparent border-white border-2 text-white text-center hover:bg-darkHover hover:scale-[0.99] transition-all duration-400 ease-in-out "
@@ -106,7 +106,7 @@ const HeroSection = () => {
                     >
                         <Suspense fallback={<Loading />}>
                             <img
-                                src="/images/heroImg.png"
+                                src="./images/heroImg.png"
                                 alt="Meme Icon"
                                 loading="lazy"
                                 className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 w-[300px] h-[300px] sm:w-[400px] sm:h-[400px]"

@@ -159,7 +159,7 @@ const About = () => {
                                                 Masters of Science in
                                                 Computer Science
                                             </p>
-                                            <span>Aug 2023 - Sep 2026</span>
+                                            <span>Aug 2023 - Sep 2025</span>
                                         </span>
                                     </div>
                                 </motion.li>

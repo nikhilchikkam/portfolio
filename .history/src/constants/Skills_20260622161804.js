@@ -7,6 +7,11 @@ import node from "../assets/node.svg";
 import mongo from "../assets/mongo.svg";
 import express from "../assets/express.svg";
 import tailwind from "../assets/tailwind.svg";
+import go from "../assets/go.svg";
+import docker from "../assets/docker.svg";
+import kubernetes from "../assets/kubernetes.svg";
+import grafana from "../assets/grafana.svg";
+import elasticsearch from "../assets/elasticsearch.svg";
 // import materialUI from "../assets/materialUI.svg";
 import github from "../assets/github.svg";
 import next from "../assets/next.svg";
@@ -19,6 +24,10 @@ export const Skills = [
     {
         img: python,
         description: "Python",
+    },
+    {
+        img: go,
+        description: "Go",
     },
     {
         img: js,
@@ -45,16 +54,32 @@ export const Skills = [
         description: "Node.js",
     },
     {
+        img: docker,
+        description: "Docker",
+    },
+    {
+        img: kubernetes,
+        description: "Kubernetes",
+    },
+    {
         img: express,
         description: "Express.js",
     },
     {
         img: mongo,
-        description: "MongoB",
+        description: "MongoDB",
     },
     {
         img: tailwind,
         description: "Tailwind CSS",
+    },
+    {
+        img: grafana,
+        description: "Grafana",
+    },
+    {
+        img: elasticsearch,
+        description: "Elasticsearch",
     },
     {
         img: neo4j,

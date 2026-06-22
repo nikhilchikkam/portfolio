@@ -47,11 +47,11 @@ const HeroSection = () => {
                             // preRenderFirstString={true}
                             sequence={[
                                 500,
-                                "I'm a MERN Stack Developer.",
+                                "Building scalable software, data platforms, and intelligent solutions.",
                                 1000,
-                                "Specailizing in Big Data Analytics.",    
+                                "Turning Ideas into Production Software.",    
                                 1000,
-                                "I make ideas & things alive.",
+                                "Designing systems. Automating workflows. Delivering impact.",
                                 500,
                             ]}
                             speed={50}
@@ -73,7 +73,7 @@ const HeroSection = () => {
                                 Contact Me
                             </ScrollLink>
                             <a
-                                href="https://drive.google.com/file/d/1U7gjSG_Ba54nyRrzN64vFRcX_ugxZIJT/view?usp=drive_link"
+                                href="https://drive.google.com/file/d/1lGsjZPy0wwSwfkl0lX3AZaiWrUT2xwHf/view?usp=sharing"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="px-6 py-3 w-full sm:w-fit rounded-full md:mr-4 bg-transparent border-white border-2 text-white text-center hover:bg-darkHover hover:scale-[0.99] transition-all duration-400 ease-in-out "

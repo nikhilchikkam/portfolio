@@ -134,7 +134,6 @@ const About = () => {
                                         <img
                                             src={skill.img}
                                             alt={skill.description}
-                                            className="w-14 h-14 object-contain"
                                         />
                                         <span className="group-hover:opacity-100 group-focus-within:opacity-100 transition-opacity bg-gray-800 text-sm text-textWhite rounded-md absolute left-1/2 -translate-x-1/2 translate-y-1/2 -mt-1 opacity-0 mx-auto px-2 w-max">
                                             {skill.description}
@@ -159,7 +158,7 @@ const About = () => {
                                                 Masters of Science in
                                                 Computer Science
                                             </p>
-                                            <span>Aug 2023 - Sep 2026</span>
+                                            <span>2023-2025</span>
                                         </span>
                                     </div>
                                 </motion.li>

@@ -80,21 +80,14 @@ const About = () => {
                     className="flex-1"
                 >
                     <p className="text-textWhite p-4 text-lg sm:text-xl sm:leading-7">
-                        I’m a software engineer who enjoys working at the
-                        intersection of technology and business. I like
-                        partnering with stakeholders to understand their goals,
-                        gather and refine requirements, assess technical
-                        feasibility, and translate business needs into practical,
-                        scalable solutions.
+                        I am a passionate MERN Stack Developer and a Problem
+                        Solver, dedicated to creating impactful codes that
+                        thrive on the internet.
                         <br /><br />
-                        I enjoy asking the right questions, validating
-                        assumptions, and helping teams deliver outcomes that
-                        balance business value, user needs, and technical
-                        constraints.
-                        <br /><br />
-                        My experience spans the full software development
-                        lifecycle, from solution design and implementation to
-                        testing and deployment.
+                        I have experience working with Python, JavaScript,
+                        TypeScript, HTML, CSS, React.js, Node.js, Express.js, MongoDB, Tailwind CSS, and Git.
+                        <br /><br />I am a quick learner and I am always looking to
+                        expand my knowledge and skill set.
                     </p>
 
                     <div className="flex flex-row justify-start gap-6 pl-4 bg-[#181a20] rounded-full p-2 mt-4 shadow-sm border border-[#23272f] w-fit">
@@ -134,7 +127,6 @@ const About = () => {
                                         <img
                                             src={skill.img}
                                             alt={skill.description}
-                                            className="w-14 h-14 object-contain"
                                         />
                                         <span className="group-hover:opacity-100 group-focus-within:opacity-100 transition-opacity bg-gray-800 text-sm text-textWhite rounded-md absolute left-1/2 -translate-x-1/2 translate-y-1/2 -mt-1 opacity-0 mx-auto px-2 w-max">
                                             {skill.description}
@@ -159,7 +151,7 @@ const About = () => {
                                                 Masters of Science in
                                                 Computer Science
                                             </p>
-                                            <span>Aug 2023 - Sep 2026</span>
+                                            <span>2023-2025</span>
                                         </span>
                                     </div>
                                 </motion.li>
@@ -171,15 +163,12 @@ const About = () => {
                                     animate={{ opacity: 1 }}
                                     transition={{ duration: 1 }}
                                 >
-                                    <div className="flex flex-col gap-1">
-                                        <div className="flex flex-wrap items-center justify-between gap-2">
-                                            <h5 className="text-2xl font-[600]">Intel</h5>
-                                            <span className="text-base font-[500] text-gray-400">Santa Clara, CA</span>
-                                        </div>
-                                        <p className="text-base font-[500] text-gray-400">
-                                            Software Engineer (Internship) — Jan 2026 - Present
-                                        </p>
-                                    </div>
+                                    <h5 className="text-2xl font-[600]">
+                                        Intel
+                                    </h5>
+                                    <p className="text-base font-[500] text-gray-400">
+                                        Software Engineer (Internship) — Santa Clara, CA
+                                    </p>
                                     <div className="mt-4">
                                         <ul className="list-disc ml-5 space-y-1 text-left">
                                             <li>
@@ -199,21 +188,22 @@ const About = () => {
                                             </li>
                                         </ul>
                                     </div>
+                                    <div className="ml-6 mt-1 text-gray-500 font-medium flex items-center justify-between max-w-[95%]">
+                                        <span className="italic">Jan 2026 - Present</span>
+                                        <span className="">Internship, Onsite</span>
+                                    </div>
                                 </motion.li>
                                 <motion.li
                                     initial={{ opacity: 0 }}
                                     animate={{ opacity: 1 }}
                                     transition={{ duration: 1 }}
                                 >
-                                    <div className="flex flex-col gap-1">
-                                        <div className="flex flex-wrap items-center justify-between gap-2">
-                                            <h5 className="text-2xl font-[600]">Paychex</h5>
-                                            <span className="text-base font-[500] text-gray-400">Rochester, NY</span>
-                                        </div>
-                                        <p className="text-base font-[500] text-gray-400">
-                                            Software Engineer (Internship) — Sep 2025 - Jan 2026
-                                        </p>
-                                    </div>
+                                    <h5 className="text-2xl font-[600]">
+                                        Paychex
+                                    </h5>
+                                    <p className="text-base font-[500] text-gray-400">
+                                        Software Engineer (Internship) — Rochester, NY
+                                    </p>
                                     <div className="mt-4">
                                         <ul className="list-disc ml-5 space-y-1 text-left">
                                             <li>
@@ -230,21 +220,22 @@ const About = () => {
                                             </li>
                                         </ul>
                                     </div>
+                                    <div className="ml-6 mt-1 text-gray-500 font-medium flex items-center justify-between max-w-[95%]">
+                                        <span className="italic">Sep 2025 - Jan 2026</span>
+                                        <span className="">Internship, Onsite</span>
+                                    </div>
                                 </motion.li>
                                 <motion.li
                                     initial={{ opacity: 0 }}
                                     animate={{ opacity: 1 }}
                                     transition={{ duration: 1 }}
                                 >
-                                    <div className="flex flex-col gap-1">
-                                        <div className="flex flex-wrap items-center justify-between gap-2">
-                                            <h5 className="text-2xl font-[600]">Mendon Group</h5>
-                                            <span className="text-base font-[500] text-gray-400">Rochester, NY</span>
-                                        </div>
-                                        <p className="text-base font-[500] text-gray-400">
-                                            Software Engineer (Internship) — June 2025 - Aug 2025
-                                        </p>
-                                    </div>
+                                    <h5 className="text-2xl font-[600]">
+                                        Mendon Group
+                                    </h5>
+                                    <p className="text-base font-[500] text-gray-400">
+                                        Software Engineer (Internship) — Rochester, NY
+                                    </p>
                                     <div className="mt-4">
                                         <ul className="list-disc ml-5 space-y-1 text-left">
                                             <li>
@@ -264,21 +255,22 @@ const About = () => {
                                             </li>
                                         </ul>
                                     </div>
+                                    <div className="ml-6 mt-1 text-gray-500 font-medium flex items-center justify-between max-w-[95%]">
+                                        <span className="italic">June 2025 - Aug 2025</span>
+                                        <span className="">Internship, Onsite</span>
+                                    </div>
                                 </motion.li>
                                 <motion.li
                                     initial={{ opacity: 0 }}
                                     animate={{ opacity: 1 }}
                                     transition={{ duration: 1 }}
                                 >
-                                    <div className="flex flex-col gap-1">
-                                        <div className="flex flex-wrap items-center justify-between gap-2">
-                                            <h5 className="text-2xl font-[600]">ADP</h5>
-                                            <span className="text-base font-[500] text-gray-400">Hyderabad, India</span>
-                                        </div>
-                                        <p className="text-base font-[500] text-gray-400">
-                                            Software Engineer (Full-time) — Nov 2021 - Aug 2023
-                                        </p>
-                                    </div>
+                                    <h5 className="text-2xl font-[600]">
+                                        ADP
+                                    </h5>
+                                    <p className="text-base font-[500] text-gray-400">
+                                        Software Engineer (Full-time) — Hyderabad, India
+                                    </p>
                                     <div className="mt-4">
                                         <ul className="list-disc ml-5 space-y-1 text-left">
                                             <li>
@@ -300,6 +292,10 @@ const About = () => {
                                                 Led 30+ strategic sessions to resolve 100+ high-impact client issues, enhancing observability with Kibana and Splunk.
                                             </li>
                                         </ul>
+                                    </div>
+                                    <div className="ml-6 mt-1 text-gray-500 font-medium flex items-center justify-between max-w-[95%]">
+                                        <span className="italic">Nov 2021 - Aug 2023</span>
+                                        <span className="">Full Time, Onsite</span>
                                     </div>
                                 </motion.li>
                             </ul>

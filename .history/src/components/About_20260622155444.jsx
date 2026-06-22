@@ -80,21 +80,14 @@ const About = () => {
                     className="flex-1"
                 >
                     <p className="text-textWhite p-4 text-lg sm:text-xl sm:leading-7">
-                        I’m a software engineer who enjoys working at the
-                        intersection of technology and business. I like
-                        partnering with stakeholders to understand their goals,
-                        gather and refine requirements, assess technical
-                        feasibility, and translate business needs into practical,
-                        scalable solutions.
+                        I am a passionate MERN Stack Developer and a Problem
+                        Solver, dedicated to creating impactful codes that
+                        thrive on the internet.
                         <br /><br />
-                        I enjoy asking the right questions, validating
-                        assumptions, and helping teams deliver outcomes that
-                        balance business value, user needs, and technical
-                        constraints.
-                        <br /><br />
-                        My experience spans the full software development
-                        lifecycle, from solution design and implementation to
-                        testing and deployment.
+                        I have experience working with Python, JavaScript,
+                        TypeScript, HTML, CSS, React.js, Node.js, Express.js, MongoDB, Tailwind CSS, and Git.
+                        <br /><br />I am a quick learner and I am always looking to
+                        expand my knowledge and skill set.
                     </p>
 
                     <div className="flex flex-row justify-start gap-6 pl-4 bg-[#181a20] rounded-full p-2 mt-4 shadow-sm border border-[#23272f] w-fit">
@@ -134,7 +127,6 @@ const About = () => {
                                         <img
                                             src={skill.img}
                                             alt={skill.description}
-                                            className="w-14 h-14 object-contain"
                                         />
                                         <span className="group-hover:opacity-100 group-focus-within:opacity-100 transition-opacity bg-gray-800 text-sm text-textWhite rounded-md absolute left-1/2 -translate-x-1/2 translate-y-1/2 -mt-1 opacity-0 mx-auto px-2 w-max">
                                             {skill.description}
@@ -159,7 +151,7 @@ const About = () => {
                                                 Masters of Science in
                                                 Computer Science
                                             </p>
-                                            <span>Aug 2023 - Sep 2026</span>
+                                            <span>2023 Aug - 2026 Sep</span>
                                         </span>
                                     </div>
                                 </motion.li>
@@ -171,17 +163,15 @@ const About = () => {
                                     animate={{ opacity: 1 }}
                                     transition={{ duration: 1 }}
                                 >
-                                    <div className="flex flex-col gap-1">
-                                        <div className="flex flex-wrap items-center justify-between gap-2">
-                                            <h5 className="text-2xl font-[600]">Intel</h5>
-                                            <span className="text-base font-[500] text-gray-400">Santa Clara, CA</span>
-                                        </div>
-                                        <p className="text-base font-[500] text-gray-400">
-                                            Software Engineer (Internship) — Jan 2026 - Present
-                                        </p>
-                                    </div>
-                                    <div className="mt-4">
-                                        <ul className="list-disc ml-5 space-y-1 text-left">
+                                    <h5 className="text-2xl font-[600]">
+                                        Intel <span className="text-base font-[500]">- Santa Clara, CA</span>
+                                    </h5>
+                                    <div className="mt-2 flex gap-4 items-center">
+                                        <div className="w-[15px] h-[2px] bg-textWhite "></div>
+                                        <ul className="list-disc ml-4 space-y-1 text-left">
+                                            <li>
+                                                <span className="italic">Software Engineer (Internship)</span>
+                                            </li>
                                             <li>
                                                 Developed a high-throughput PR metrics system in <span className="font-semibold">Go</span>, ingesting 3,000+ PRs in 10 minutes from GitHub APIs and computing 25+ metrics using goroutines.
                                             </li>
@@ -199,23 +189,25 @@ const About = () => {
                                             </li>
                                         </ul>
                                     </div>
+                                    <div className="ml-6 mt-1 text-gray-500 font-medium flex items-center justify-between max-w-[95%]">
+                                        <span className="italic">Jan 2026 - Present</span>
+                                        <span className="">Internship, Onsite</span>
+                                    </div>
                                 </motion.li>
                                 <motion.li
                                     initial={{ opacity: 0 }}
                                     animate={{ opacity: 1 }}
                                     transition={{ duration: 1 }}
                                 >
-                                    <div className="flex flex-col gap-1">
-                                        <div className="flex flex-wrap items-center justify-between gap-2">
-                                            <h5 className="text-2xl font-[600]">Paychex</h5>
-                                            <span className="text-base font-[500] text-gray-400">Rochester, NY</span>
-                                        </div>
-                                        <p className="text-base font-[500] text-gray-400">
-                                            Software Engineer (Internship) — Sep 2025 - Jan 2026
-                                        </p>
-                                    </div>
-                                    <div className="mt-4">
-                                        <ul className="list-disc ml-5 space-y-1 text-left">
+                                    <h5 className="text-2xl font-[600]">
+                                        Paychex <span className="text-base font-[500]">- Rochester, NY</span>
+                                    </h5>
+                                    <div className="mt-2 flex gap-4 items-center">
+                                        <div className="w-[15px] h-[2px] bg-textWhite "></div>
+                                        <ul className="list-disc ml-4 space-y-1 text-left">
+                                            <li>
+                                                <span className="italic">Software Engineer (Internship)</span>
+                                            </li>
                                             <li>
                                                 Developed and maintained distributed <span className="font-semibold">React</span> and <span className="font-semibold">TypeScript</span> microservices to enable parallel feature development.
                                             </li>
@@ -230,25 +222,27 @@ const About = () => {
                                             </li>
                                         </ul>
                                     </div>
+                                    <div className="ml-6 mt-1 text-gray-500 font-medium flex items-center justify-between max-w-[95%]">
+                                        <span className="italic">Sep 2025 - Jan 2026</span>
+                                        <span className="">Internship, Onsite</span>
+                                    </div>
                                 </motion.li>
                                 <motion.li
                                     initial={{ opacity: 0 }}
                                     animate={{ opacity: 1 }}
                                     transition={{ duration: 1 }}
                                 >
-                                    <div className="flex flex-col gap-1">
-                                        <div className="flex flex-wrap items-center justify-between gap-2">
-                                            <h5 className="text-2xl font-[600]">Mendon Group</h5>
-                                            <span className="text-base font-[500] text-gray-400">Rochester, NY</span>
-                                        </div>
-                                        <p className="text-base font-[500] text-gray-400">
-                                            Software Engineer (Internship) — June 2025 - Aug 2025
-                                        </p>
-                                    </div>
-                                    <div className="mt-4">
-                                        <ul className="list-disc ml-5 space-y-1 text-left">
+                                    <h5 className="text-2xl font-[600]">
+                                        Mendon Group <span className="text-base font-[500]">- Rochester, NY</span>
+                                    </h5>
+                                    <div className="mt-2 flex gap-4 items-center">
+                                        <div className="w-[15px] h-[2px] bg-textWhite "></div>
+                                        <ul className="list-disc ml-4 space-y-1 text-left">
                                             <li>
-                                                Designed and deployed a scalable SaaS food product search app with <span className="font-semibold">Python</span>, <span className="font-semibold">FastAPI</span>, <span className="font-semibold">PostgreSQL</span>, and <span className="font-semibold">React</span>, supporting 10,000+ peak users with {"<200ms"} p99 latency.
+                                                <span className="italic">Software Engineer (Internship)</span>
+                                            </li>
+                                            <li>
+                                                Designed and deployed a scalable SaaS food product search app with <span className="font-semibold">Python</span>, <span className="font-semibold">FastAPI</span>, <span className="font-semibold">PostgreSQL</span>, and <span className="font-semibold">React</span>, supporting 10,000+ peak users with <200ms p99 latency.
                                             </li>
                                             <li>
                                                 Engineered fault-tolerant ETL pipelines ingesting 1M+ records/day, cutting data latency by 50% and enabling real-time analytics with RESTful APIs.
@@ -264,23 +258,25 @@ const About = () => {
                                             </li>
                                         </ul>
                                     </div>
+                                    <div className="ml-6 mt-1 text-gray-500 font-medium flex items-center justify-between max-w-[95%]">
+                                        <span className="italic">June 2025 - Aug 2025</span>
+                                        <span className="">Internship, Onsite</span>
+                                    </div>
                                 </motion.li>
                                 <motion.li
                                     initial={{ opacity: 0 }}
                                     animate={{ opacity: 1 }}
                                     transition={{ duration: 1 }}
                                 >
-                                    <div className="flex flex-col gap-1">
-                                        <div className="flex flex-wrap items-center justify-between gap-2">
-                                            <h5 className="text-2xl font-[600]">ADP</h5>
-                                            <span className="text-base font-[500] text-gray-400">Hyderabad, India</span>
-                                        </div>
-                                        <p className="text-base font-[500] text-gray-400">
-                                            Software Engineer (Full-time) — Nov 2021 - Aug 2023
-                                        </p>
-                                    </div>
-                                    <div className="mt-4">
-                                        <ul className="list-disc ml-5 space-y-1 text-left">
+                                    <h5 className="text-2xl font-[600]">
+                                        ADP <span className="text-base font-[500]">- Hyderabad, India</span>
+                                    </h5>
+                                    <div className="mt-2 flex gap-4 items-center">
+                                        <div className="w-[15px] h-[2px] bg-textWhite "></div>
+                                        <ul className="list-disc ml-4 space-y-1 text-left">
+                                            <li>
+                                                <span className="italic">Software Engineer (Full-time)</span>
+                                            </li>
                                             <li>
                                                 Spearheaded frontend modernization with <span className="font-semibold">React</span> and JavaScript to reduce customer-reported latency by 25% and improve retention.
                                             </li>
@@ -300,6 +296,10 @@ const About = () => {
                                                 Led 30+ strategic sessions to resolve 100+ high-impact client issues, enhancing observability with Kibana and Splunk.
                                             </li>
                                         </ul>
+                                    </div>
+                                    <div className="ml-6 mt-1 text-gray-500 font-medium flex items-center justify-between max-w-[95%]">
+                                        <span className="italic">Nov 2021 - Aug 2023</span>
+                                        <span className="">Full Time, Onsite</span>
                                     </div>
                                 </motion.li>
                             </ul>
